@@ -10,7 +10,7 @@ const storeItemsAndPrice = require('./storeItems');
 app.use(express.json());
 app.use(
     cors({
-        origin: 'https://ryus-greeneries.netlify.app/checkout',
+        origin: 'https://ryus-greeneries.netlify.app',
         methods: 'POST',
     })
 );
